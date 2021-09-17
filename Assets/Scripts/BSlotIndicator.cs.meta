@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7e9c70a974352974488e19d6a2061ef1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - allBatteriesPlacedMaterial: {fileID: 2100000, guid: 93ac35acead514c48a9dac6ef55907e4, type: 2}
+  - batteriesMissingMaterial: {fileID: 2100000, guid: 014c1fec131b2b64ea91f37fa951ea0a, type: 2}
+  - noBatteriesPlacedMaterial: {fileID: 2100000, guid: 5d07cb97a507cab47a7416041b7f7b06, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

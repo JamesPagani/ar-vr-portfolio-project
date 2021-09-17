@@ -1,0 +1,757 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1237; Version 2009; 64bit' Language: 'es' Physical Memory: 6082 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jaime/Proyectos/HolbertonCodingSchool/ar-vr-portfolio-project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50128
+Successfully changed project path to: C:/Users/jaime/Proyectos/HolbertonCodingSchool/ar-vr-portfolio-project
+C:/Users/jaime/Proyectos/HolbertonCodingSchool/ar-vr-portfolio-project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 772.91 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.13 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jaime/Proyectos/HolbertonCodingSchool/ar-vr-portfolio-project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3964 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.261019 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.98 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.031 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.049203 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.95 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.47 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 1663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.5 MB.
+System memory in use after: 78.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2119.
+Total: 3.775900 ms (FindLiveObjects: 0.263400 ms CreateObjectMapping: 0.068400 ms MarkObjects: 3.299300 ms  DeleteObjects: 0.142900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/DoorAnimations.cs
+  artifactKey: Guid(aec11b2ae311ccb4cb224efa61cb8aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DoorAnimations.cs using Guid(aec11b2ae311ccb4cb224efa61cb8aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1f820eb2ce8a2adf38c28986481a97') in 0.130393 seconds
+  Import took 0.171176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.448680 seconds.
+  path: Assets/Animations/Door/Door.controller
+  artifactKey: Guid(a3a864d70760b634cbf3e5d74ec791e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Door/Door.controller using Guid(a3a864d70760b634cbf3e5d74ec791e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388f95aaef7bdc4a8223e2e5544dd759') in 0.096804 seconds
+  Import took 0.153934 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 1649 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.5 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2123.
+Total: 3.019000 ms (FindLiveObjects: 0.257800 ms CreateObjectMapping: 0.062400 ms MarkObjects: 2.616700 ms  DeleteObjects: 0.080500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 882.890490 seconds.
+  path: Assets/Animations/Door/Closed.anim
+  artifactKey: Guid(63e6bee67e49a624ab059f5ef7f585ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Door/Closed.anim using Guid(63e6bee67e49a624ab059f5ef7f585ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fab8324f2799fda0e213c6a0f73d647') in 0.038729 seconds
+  Import took 0.054396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.272256 seconds.
+  path: Assets/Animations/Door/Opened.anim
+  artifactKey: Guid(34ac4a1e233f5bd4ea11309f632a39f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Door/Opened.anim using Guid(34ac4a1e233f5bd4ea11309f632a39f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3686f9989925239304e8fcc32684de5a') in 0.027526 seconds
+  Import took 0.056778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3890.269876 seconds.
+  path: Assets/Animations/Door/Close.anim
+  artifactKey: Guid(8919b2466934bc1418f2c6188ad7e1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Door/Close.anim using Guid(8919b2466934bc1418f2c6188ad7e1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d3565dbfb2ac7829c77ce722e07724') in 0.023351 seconds
+  Import took 0.082766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.350987 seconds.
+  path: Assets/Animations/Door/Open.anim
+  artifactKey: Guid(ad4019d65703052439f6cf25ca41479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Door/Open.anim using Guid(ad4019d65703052439f6cf25ca41479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49dbd5da7dea26bdf41e73c97336db5') in 0.013554 seconds
+  Import took 0.067374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4897.785898 seconds.
+  path: Assets/Animations/Door/Door.controller
+  artifactKey: Guid(a3a864d70760b634cbf3e5d74ec791e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Door/Door.controller using Guid(a3a864d70760b634cbf3e5d74ec791e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3236a8ea03d90cc0aba1c74fcde6ab89') in 1.411757 seconds
+  Import took 1.514940 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.194351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.107 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 1649 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.5 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2127.
+Total: 5.397100 ms (FindLiveObjects: 0.446600 ms CreateObjectMapping: 0.150000 ms MarkObjects: 4.622800 ms  DeleteObjects: 0.172500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 222.285682 seconds.
+  path: Assets/Animations/Door/Opened.anim
+  artifactKey: Guid(34ac4a1e233f5bd4ea11309f632a39f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Door/Opened.anim using Guid(34ac4a1e233f5bd4ea11309f632a39f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea42233c0d1ef269c18e782bbc7b7ac') in 0.053295 seconds
+  Import took 0.139100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.879812 seconds.
+  path: Assets/Animations/Door/Open.anim
+  artifactKey: Guid(ad4019d65703052439f6cf25ca41479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Door/Open.anim using Guid(ad4019d65703052439f6cf25ca41479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214b4a5fff3c7036b7863c5d1ee46d93') in 0.032559 seconds
+  Import took 0.077623 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.320387 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 1650 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.6 MB.
+System memory in use after: 77.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2132.
+Total: 3.183700 ms (FindLiveObjects: 0.273900 ms CreateObjectMapping: 0.072000 ms MarkObjects: 2.739400 ms  DeleteObjects: 0.096500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 424.055709 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(ede8309e2f078194fa2ae8ee3a4710ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(ede8309e2f078194fa2ae8ee3a4710ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d05e03fb5c6467ed52ce18c423bce11') in 0.035432 seconds
+  Import took 0.063353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.911087 seconds.
+  path: Assets/Scripts/GoToNextStage.cs
+  artifactKey: Guid(ede8309e2f078194fa2ae8ee3a4710ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GoToNextStage.cs using Guid(ede8309e2f078194fa2ae8ee3a4710ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d714e37d27da199c61a27b07070e9d4') in 0.027625 seconds
+  Import took 0.082152 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002853 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.373 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 1650 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.6 MB.
+System memory in use after: 77.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 4.712900 ms (FindLiveObjects: 1.068100 ms CreateObjectMapping: 0.330200 ms MarkObjects: 3.206600 ms  DeleteObjects: 0.105500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.169208 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.125 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 1650 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.6 MB.
+System memory in use after: 77.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2140.
+Total: 3.379200 ms (FindLiveObjects: 0.340700 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.793300 ms  DeleteObjects: 0.137600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1263.027849 seconds.
+  path: Assets/Scripts/GoToNextStage.cs
+  artifactKey: Guid(ede8309e2f078194fa2ae8ee3a4710ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GoToNextStage.cs using Guid(ede8309e2f078194fa2ae8ee3a4710ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785c1548a59370e0b6628bff4ffeff03') in 0.008619 seconds
+  Import took 0.265500 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.636703 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.763 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 1650 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.6 MB.
+System memory in use after: 77.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2144.
+Total: 4.451300 ms (FindLiveObjects: 0.343700 ms CreateObjectMapping: 0.142500 ms MarkObjects: 3.831100 ms  DeleteObjects: 0.131700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002708 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.086 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.6 MB.
+System memory in use after: 77.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2149.
+Total: 16.883600 ms (FindLiveObjects: 0.327700 ms CreateObjectMapping: 0.072800 ms MarkObjects: 16.381500 ms  DeleteObjects: 0.098400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.168857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.6 MB.
+System memory in use after: 77.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2153.
+Total: 3.332100 ms (FindLiveObjects: 0.273400 ms CreateObjectMapping: 0.064100 ms MarkObjects: 2.905600 ms  DeleteObjects: 0.087400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 4108.745015 seconds.
+  path: Assets/Prefabs/Exit Door.prefab
+  artifactKey: Guid(b3761baddc61948448928d038c310581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Exit Door.prefab using Guid(b3761baddc61948448928d038c310581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8faa4ff41d7d5ce298191d09c07da59d') in 3.376655 seconds
+  Import took 3.449812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.539387 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(6a188dea864a77a4ba63e1c4b14c3d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(6a188dea864a77a4ba63e1c4b14c3d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97337eba03ac5282dae99ad3134122e6') in 1.354985 seconds
+  Import took 1.437895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(c67d446c5915a024db9d6f4fd7dd2162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(c67d446c5915a024db9d6f4fd7dd2162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003e0c75fd3eea46f63030f116fbc591') in 0.304038 seconds
+  Import took 0.442942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(79d96f6ddfc8ca2479fd28c9869e9d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(79d96f6ddfc8ca2479fd28c9869e9d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d00d92b89f5795cbb713d35aaf527c') in 0.129203 seconds
+  Import took 0.174780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(d078224996a5db841924744c0ba9a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(d078224996a5db841924744c0ba9a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa5b33e7a1403332b36f248a87bc398') in 0.152824 seconds
+  Import took 0.225748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.891864 seconds.
+  path: Assets/Prefabs/Exit Door.prefab
+  artifactKey: Guid(b3761baddc61948448928d038c310581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Exit Door.prefab using Guid(b3761baddc61948448928d038c310581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45abba48995fb64d42b90d8fba067387') in 0.034338 seconds
+  Import took 0.068458 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2169.
+Total: 3.086700 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.062200 ms MarkObjects: 2.665100 ms  DeleteObjects: 0.080300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\jaime\Proyectos\HolbertonCodingSchool\ar-vr-portfolio-project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.164 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2173.
+Total: 3.443900 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.929100 ms  DeleteObjects: 0.079100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 856.813280 seconds.
+  path: Assets/Scenes/Main/Floor02.unity
+  artifactKey: Guid(82514bfcf5392614182ac687a7f33525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main/Floor02.unity using Guid(82514bfcf5392614182ac687a7f33525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a76844ad7785b3267c88302b3396a7f') in 0.079856 seconds
+  Import took 0.096032 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 52.63 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.5 MB.
+System memory in use after: 56.6 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2173.
+Total: 4.036100 ms (FindLiveObjects: 0.347700 ms CreateObjectMapping: 0.070700 ms MarkObjects: 3.529100 ms  DeleteObjects: 0.086400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1510.149257 seconds.
+  path: Assets/Scenes/Main/Floor01.unity
+  artifactKey: Guid(45c61dfe5c5542541a02331a897effb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main/Floor01.unity using Guid(45c61dfe5c5542541a02331a897effb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba24c006025a25b92891d1529193200') in 1.438680 seconds
+  Import took 2.043000 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.5 MB.
+System memory in use after: 56.6 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2173.
+Total: 4.402500 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.233800 ms MarkObjects: 3.695400 ms  DeleteObjects: 0.101700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 441.758662 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f686ee2b8268b5b155f816f4b7f83c') in 5.357956 seconds
+  Import took 5.424179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe9ad97e0106138f5001c42457eaba7') in 0.074686 seconds
+  Import took 0.137641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.693616 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657f595f7500bf00a60644e336f2bd08') in 0.049259 seconds
+  Import took 0.080249 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
+System memory in use after: 58.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2175.
+Total: 4.309600 ms (FindLiveObjects: 0.438500 ms CreateObjectMapping: 0.066500 ms MarkObjects: 3.708700 ms  DeleteObjects: 0.093300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 818.702004 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9938628e808ed6b917abb969e4d98e7e') in 1.100667 seconds
+  Import took 1.140270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.336145 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876b2b69fb18581664892bb2fa36c7dd') in 0.070900 seconds
+  Import took 0.098612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.665372 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ce0d84a1557bd2983a87e80e2aeee2') in 0.028265 seconds
+  Import took 0.054370 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
+System memory in use after: 58.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2175.
+Total: 4.655500 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.065100 ms MarkObjects: 4.220000 ms  DeleteObjects: 0.092000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 80.25 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
+System memory in use after: 58.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2175.
+Total: 27.657800 ms (FindLiveObjects: 0.387400 ms CreateObjectMapping: 0.109600 ms MarkObjects: 27.060500 ms  DeleteObjects: 0.097000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
+System memory in use after: 58.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2175.
+Total: 6.086800 ms (FindLiveObjects: 0.336600 ms CreateObjectMapping: 0.096800 ms MarkObjects: 5.532600 ms  DeleteObjects: 0.117500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
+System memory in use after: 58.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2175.
+Total: 4.807300 ms (FindLiveObjects: 0.312700 ms CreateObjectMapping: 0.067700 ms MarkObjects: 4.308500 ms  DeleteObjects: 0.115800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
+System memory in use after: 58.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2175.
+Total: 5.884800 ms (FindLiveObjects: 0.564600 ms CreateObjectMapping: 0.146400 ms MarkObjects: 5.077400 ms  DeleteObjects: 0.091700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
+System memory in use after: 58.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2175.
+Total: 10.619000 ms (FindLiveObjects: 0.744300 ms CreateObjectMapping: 0.206100 ms MarkObjects: 9.569300 ms  DeleteObjects: 0.095600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5555.192310 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ca9f323182287fe4b80ee4c43b7256f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a082c7d2d0faa26295d3ee49d466ddb') in 1.822975 seconds
+  Import took 2.109532 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
+System memory in use after: 58.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2175.
+Total: 6.223000 ms (FindLiveObjects: 0.516500 ms CreateObjectMapping: 0.103000 ms MarkObjects: 5.483700 ms  DeleteObjects: 0.116200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
